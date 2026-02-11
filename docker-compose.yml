@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # The Wukong Defense Proxy
+  wukong-proxy:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - TARGET_URL=http://target-app:80
+      - ENABLE_ML_ANOMALY=false # Needs training
+      - ENABLE_GENAI_TRAPS=true
+      - ENABLE_TARPIT=true
+    depends_on:
+      - target-app
+
+  # Any existing application (e.g., Nginx, Node.js, PHP)
+  target-app:
+    image: nginx:alpine
+    # No ports exposed to the public - only accessible via Wukong Proxy

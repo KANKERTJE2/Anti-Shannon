@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wukong-defense"
+version = "0.1.0"
+description = "Anti-AI Defensive Middleware for Python Applications"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "PolyForm-Noncommercial-1.0.0"
+authors = [
+  { name = "Mikaeel", email = "mikaeel@example.com" },
+]
+dependencies = [
+    "starlette",
+    "fastapi",
+    "httpx",
+    "uvicorn",
+    "jinja2",
+    "scikit-learn",
+    "numpy",
+    "joblib",
+    "faker"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+]
