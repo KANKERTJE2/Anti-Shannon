@@ -1,21 +1,19 @@
-# Wukong 🐵🛡️: The Hostile Defense Framework
+# Wukong (Anti-Shannon) 🐵🛡️
 
 > [!IMPORTANT]
 > **License Note**: Wukong is released under the [PolyForm Noncommercial License 1.0.0](LICENSE). 
 > Commercial use, selling, or integration into paid services is strictly prohibited without a private license.
 
-### Stop AI Pentesting Agents (Shannon, etc.) in their tracks.
+**Wukong (Anti-Shannon) is a hostile defensive framework designed to neutralize autonomous AI pentesting agents (like Shannon, AutoGPT, and others).** By turning your application into an asymmetric maze of generative traps, exponential delays, and behavioral obfuscation, Wukong makes attacking your infrastructure prohibitively expensive for AI agents.
 
-
-**Wukong** is the first "Hostile" Defensive Framework designed to neutralize autonomous AI agents. Unlike traditional WAFs that simply block, Wukong turns your application into an asymmetric maze that drains an AI agent's time, money (API units), and context window.
-
-> "The best defense is a hall of mirrors."
+### 🛑 STOP AI AGENTS IN THEIR TRACKS
+In the era of autonomous hacking, traditional WAFs are not enough. Wukong transforms your site into a **Hall of Mirrors** where robots go to die.
 
 ---
 
-## 🚀 The Novelty: Why Wukong?
+## 🚀 Why Anti-Shannon? (The Novelty)
 
-Autonomous AI agents (like **Shannon**) follow deterministic logic and have high operational costs. Wukong exploits these weaknesses:
+Autonomous AI agents follow deterministic logic and incur high operational costs (API credits/tokens). Wukong exploits these architectural fundamental weaknesses:
 
 1.  **Asymmetric Warfare**: Forces AI agents to wait 30s+ for a response, making automated hacking unprofitable.
 2.  **Context Exhaustion**: Traps agents in loops of infinite generative data, exploding their token usage.
